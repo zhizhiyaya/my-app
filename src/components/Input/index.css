@@ -1,0 +1,32 @@
+.input {
+	position: relative;
+    flex: 1;
+    /*flexDirection: row;*/
+    /*alignItems: center;*/
+    height: 40px;
+	padding: 0 10px;
+	border: 1px solid #ddd;
+    overflow: hidden;
+}
+.leftMask {
+    position: absolute;
+    width: 9px;
+    top: 0;
+    left: 1px;
+    bottom: 0;
+    background: #fff;
+}
+.placehold {
+    flex: 1;
+    color: #bdbdbd;
+    font-size: 16px;
+}
+.cursor {
+    color: #647ed3;
+    font-size: 16px;
+}
+.text {
+    margin-right: 2;
+    color: #666;
+    font-size: 16px;
+}

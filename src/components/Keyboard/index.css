@@ -1,0 +1,61 @@
+
+.container{
+    position: absolute;
+    flex: 1;
+    flex-direction: row;
+    justify-content: flex-start;
+    /*bottom: -KEYBOARD_HEIGHT;*/
+    left: 0;
+    right: 0;
+    /*height: KEYBOARD_HEIGHT;*/
+    background: #f6f6f7;
+	border-top: 1px solid #ccc;
+}
+.numList {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: KEYBOARD_HEIGHT;
+}
+.numGird {
+    flex: 1;
+    flex-direction: row;
+}
+.num {
+    flex: 1;
+    justify-content: center;
+	border-width: 0 1px 1px 0;
+    border-style: solid;
+    border-color: #ccc;
+}
+.numText {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    color: #000;
+}
+.optList {
+    /*width: SCREEN_WIDTH * 0.265;*/
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.opt {
+    flex: 1;
+    justify-content: center
+}
+.optText {
+    margin-left: 1px;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+}
+.okWrap {
+	border-top: 1px solid #11b4ca;
+    background: #11b4ca;
+}
+.ok {
+    color: #fff;
+}
