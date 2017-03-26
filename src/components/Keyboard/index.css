@@ -1,27 +1,31 @@
 
 .container{
     position: absolute;
-    flex: 1;
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    /*bottom: -KEYBOARD_HEIGHT;*/
     left: 0;
     right: 0;
+	bottom: 0;
+	/*bottom: -KEYBOARD_HEIGHT;*/
     /*height: KEYBOARD_HEIGHT;*/
     background: #f6f6f7;
 	border-top: 1px solid #ccc;
 }
 .numList {
+	display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: flex-start;
-    height: KEYBOARD_HEIGHT;
 }
 .numGird {
+	display: flex;
     flex: 1;
     flex-direction: row;
 }
 .num {
+	display: flex;
+	flex-direction: column;
     flex: 1;
     justify-content: center;
 	border-width: 0 1px 1px 0;
@@ -36,13 +40,16 @@
     color: #000;
 }
 .optList {
-    /*width: SCREEN_WIDTH * 0.265;*/
+	display: flex;
     flex-direction: column;
     justify-content: flex-start;
+	/*width: SCREEN_WIDTH * 0.265;*/
 }
 .opt {
+	display: flex;
+	flex-direction: column;
     flex: 1;
-    justify-content: center
+    justify-content: center;
 }
 .optText {
     margin-left: 1px;
@@ -58,4 +65,8 @@
 }
 .ok {
     color: #fff;
+}
+.icon {
+	color: '#000';
+    font-size: 34;
 }

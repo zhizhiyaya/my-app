@@ -3,15 +3,6 @@
  */
 
 'use strict';
-//
-// import {
-//     ScrollView,
-//     View,
-//     Text,
-//     TouchableOpacity,
-//     TextInput
-// } from 'react-native';
-
 import Cursor from '../Cursor';
 import React, { Component } from 'react';
 
@@ -31,7 +22,7 @@ export default class Input extends Component {
     }
 
     componentDidMount(){
-        this.refs.ScrollInput && this.textScroll();
+        // this.refs.ScrollInput && this.textScroll();
     }
 
     componentWillReceiveProps(nextProps) {
@@ -41,7 +32,7 @@ export default class Input extends Component {
 
             this.setState({isFocus: isFocus});
         }
-        this.refs.ScrollInput && this.textScroll();
+        // this.refs.ScrollInput && this.textScroll();
     }
 
     shouldComponentUpdate(nextProps) {
